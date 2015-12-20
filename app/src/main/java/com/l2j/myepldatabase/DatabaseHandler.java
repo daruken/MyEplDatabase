@@ -1,5 +1,7 @@
 package com.l2j.myepldatabase;
 
+import android.util.Log;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -29,6 +31,7 @@ public class DatabaseHandler {
 
                 mArrayClub.add(stEplClub);
             }
+
         }catch(JSONException e){
             e.printStackTrace();
         }
